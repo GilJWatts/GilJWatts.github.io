@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DevsInc</title>
+    <link rel="stylesheet" href="exercise8.css" />
+    <script src="./exercise8.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>DevsInc Dice Roller</h1>
+      </header>
+
+      <main>
+        <section id="dice-selection">
+          <h2>Select the Number of Sides</h2>
+          <div class="input-group">
+            <label for="numSides">Number of Sides:</label>
+            <input
+              type="number"
+              id="numSides"
+              name="numSides"
+              value="6"
+              min="1"
+              max="100"
+            />
+          </div>
+          <button id="roll-button" onclick="diceRollAndUpdate()">
+            Roll Dice
+          </button>
+        </section>
+
+        <section id="result-area">
+          <h2>Result</h2>
+          <div id="dice-result"></div>
+        </section>
+      </main>
+
+      <footer>
+        <p>&copy; 2025 DevsInc</p>
+      </footer>
+    </div>
+    <script src="eventListener.js" defer></script>
+  </body>
+</html>
