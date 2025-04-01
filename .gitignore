@@ -1,0 +1,21 @@
+# OS-specific Files
+.DS_Store
+.vscode/
+
+#tokens, api keys, etc
+authentication.js
+
+#folders
+#Lab8/
+
+# Log files
+*.log
+
+#npm
+node_modules
+
+#notes
+notes/
+
+# Other temporary files
+*.tmp
